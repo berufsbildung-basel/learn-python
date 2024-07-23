@@ -27,10 +27,9 @@ becomes a local variable inside the function.
 
 ## Test code
 
-To test your code, download [whats_your_name_test.py](./whats_your_name_test.py)
-and run it with
+To validate your code, download the test code below and run
+it as explained on the [Hello, Python](./hello_python.html)
+exercice page.
 
-    python whats_your_name_test.py
-
-
-
+Test code:
+[whats_your_name_test.py](./whats_your_name_test.py)

@@ -26,10 +26,9 @@ situations.
 
 ## Test code
 
-To test your code, download [calculator_function_test.py](./calculator_function_test.py)
-and run it with
+To validate your code, download the test code below and run
+it as explained on the [Hello, Python](./hello_python.html)
+exercice page.
 
-    python calculator_function_test.py
-
-
-
+Test code:
+[calculator_function_test.py](./calculator_function_test.py)

@@ -29,13 +29,15 @@ exercise results.
 
 ## Test code
 
-To test your code, download [hello_python_test.py](./hello_python_test.py)
-and run it with
+To test your code, download [hello_python_test.py](./hello_python_test.py) to the same folder where your 
+`hello_python.py` code is found, and run it with
 
     python hello_python_test.py
 
 At this point you do not need to understand how the test code works,
 but if you're curious it's not rocket science either.
+
+
 
 
 

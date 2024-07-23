@@ -38,10 +38,10 @@ Discuss the benefits of using Exceptions as opposed to returning
 
 ## Test code
 
-To test your code, download [defensive_exceptions_test.py](./defensive_exceptions_test.py)
-and run it with
+To validate your code, download the test code below and run
+it as explained on the [Hello, Python](./hello_python.html)
+exercice page.
 
-    python defensive_exceptions_test.py
-
-
+Test code:
+[defensive_exceptions_test.py](./defensive_exceptions_test.py)
 

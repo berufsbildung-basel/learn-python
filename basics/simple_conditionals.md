@@ -30,10 +30,9 @@ a function, which might involve [Fuzzing](https://en.wikipedia.org/wiki/Fuzzing)
 
 ## Test code
 
-To test your code, download [simple_conditionals_test.py](./simple_conditionals_test.py)
-and run it with
+To validate your code, download the test code below and run
+it as explained on the [Hello, Python](./hello_python.html)
+exercice page.
 
-    python simple_conditionals_test.py
-
-
-
+Test code:
+[simple_conditionals_test.py](./simple_conditionals_test.py)

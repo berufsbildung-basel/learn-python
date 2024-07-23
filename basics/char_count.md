@@ -28,10 +28,9 @@ length to a string.
 
 ## Test code
 
-To test your code, download [char_count_test.py](./char_count_test.py)
-and run it with
+To validate your code, download the test code below and run
+it as explained on the [Hello, Python](./hello_python.html)
+exercice page.
 
-    python char_count_test.py
-
-
-
+Test code:
+[char_count_test.py](./char_count_test.py)
