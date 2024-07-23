@@ -4,9 +4,9 @@
 baseurl: "/learn-python/"
 url: "https://berufsbildung-basel.github.io"
 
-title: Python Programming Exercices
+title: Python Programming Exercises
 description: >- # this means to ignore newlines until the next entry
-  Website for Python Programming Exercices
+  Website for Python Programming Exercises
 show_excerpts: true
 #tag_page: /tags.html
 rss: "RSS"

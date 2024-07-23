@@ -7,7 +7,7 @@ title: Defensive Programming
 
 # Defensive Programming: using Exceptions
 
-In the [Calculator exercice](./calculator_function.html) we
+In the [Calculator exercise](./calculator_function.html) we
 didn't handle exceptional cases such as an invalid operator
 being passed to the `calc` function, or a division by zero.
 
@@ -40,7 +40,7 @@ Discuss the benefits of using Exceptions as opposed to returning
 
 To validate your code, download the test code below and run
 it as explained on the [Hello, Python](./hello_python.html)
-exercice page.
+exercise page.
 
 Test code:
 [defensive_exceptions_test.py](./defensive_exceptions_test.py)

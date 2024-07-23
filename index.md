@@ -8,7 +8,7 @@ title: Home
 
 ![Happy Python]({{ site.baseurl }}/images/happy-python-tricycle.webp)
 
-This website provides a series of exercices meant to teach
+This website provides a series of exercises meant to teach
 the basics of programming, in Python.
 
 For more information about Python itself see the [Links](./links.html) page.

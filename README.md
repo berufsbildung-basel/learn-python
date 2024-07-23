@@ -1,4 +1,4 @@
-# python-exercices
+# Learning Python
 Learn the basics of programming in Python
 
 ## Local website testing with Docker

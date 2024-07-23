@@ -29,7 +29,7 @@ becomes a local variable inside the function.
 
 To validate your code, download the test code below and run
 it as explained on the [Hello, Python](./hello_python.html)
-exercice page.
+exercise page.
 
 Test code:
 [whats_your_name_test.py](./whats_your_name_test.py)

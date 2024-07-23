@@ -21,7 +21,7 @@ example,it will return `Yo, cats:8`.
 Use the test code below to validate your function.
 
 The skeleton or your code is similar to the previous
-exercices.
+exercises.
 
 _Hint_: you might need to use `str()` to convert the string
 length to a string.
@@ -30,7 +30,7 @@ length to a string.
 
 To validate your code, download the test code below and run
 it as explained on the [Hello, Python](./hello_python.html)
-exercice page.
+exercise page.
 
 Test code:
 [char_count_test.py](./char_count_test.py)

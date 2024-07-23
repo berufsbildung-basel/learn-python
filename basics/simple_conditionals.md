@@ -32,7 +32,7 @@ a function, which might involve [Fuzzing](https://en.wikipedia.org/wiki/Fuzzing)
 
 To validate your code, download the test code below and run
 it as explained on the [Hello, Python](./hello_python.html)
-exercice page.
+exercise page.
 
 Test code:
 [simple_conditionals_test.py](./simple_conditionals_test.py)

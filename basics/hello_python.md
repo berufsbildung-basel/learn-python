@@ -23,7 +23,7 @@ are _comment lines_, they are ignored by the Python
 language executor but can help us understand the
 code better.
 
-There isn't much to program for this exercice, but it will
+There isn't much to program for this exercise, but it will
 help you get used to the automated testing of
 exercise results.
 
