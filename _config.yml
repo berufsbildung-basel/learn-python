@@ -1,14 +1,14 @@
 # Jekyll configs
 
 # Site settings
-baseurl: "/pages/bdelacre/python-exercices"
-url: "https://git.corp.adobe.com"
+baseurl: "/learn-python/"
+url: "https://berufsbildung-basel.github.io"
 
 title: Python Programming Exercices
 description: >- # this means to ignore newlines until the next entry
   Website for Python Programming Exercices
 show_excerpts: true
-tag_page: /tags.html
+#tag_page: /tags.html
 rss: "RSS"
 
 
@@ -33,7 +33,7 @@ last_edit_timestamp: true
 last_edit_time_format: "%b %e %Y at %I:%M %p"
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://git.corp.adobe.com/bdelacre/python-exercices"
+gh_edit_repository: "https://github.com/berufsbildung-basel/learn-python"
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
 
