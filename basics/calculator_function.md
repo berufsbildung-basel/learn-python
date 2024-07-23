@@ -7,7 +7,8 @@ title: A Calculator Function
 
 # A Calculator Function
 
-Build a `calc` function that executes
+In a file called `calculator_function.py`, 
+write a `calc` function that executes
 simple arithmetic operations, as follows:
 
 - The function takes 3 arguments: number, operator (string), number
