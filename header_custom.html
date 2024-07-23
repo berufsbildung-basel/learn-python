@@ -1,0 +1,68 @@
+<button id="theme-switcher" class="btn" type="button" name="button" onclick="javascript:toggleTheme()">🌞</button>
+<script charset="utf-8">
+    (function () {
+        var themeIcon;
+        var themeManualToggle = sessionStorage.getItem('themeManualToggle');
+        if (themeManualToggle === undefined) {
+            themeManualToggle = false;
+            sessionStorage.setItem('themeManualToggle', themeManualToggle);
+        }
+
+        if (sessionStorage.getItem('currentTheme') === undefined) {
+            var currentTheme = jtd.getTheme();
+            if ('light' === currentTheme || 'default' === currentTheme) {
+                sessionStorage.setItem('currentTheme', 'light');
+            } else {
+                sessionStorage.setItem('currentTheme', 'dark');
+            }
+            setTheme();
+        }
+
+        function toggleTheme() {
+            sessionStorage.setItem('themeManualToggle', 'true');
+            if ('dark' === sessionStorage.getItem('currentTheme')) {
+                sessionStorage.setItem('currentTheme', 'light')
+            } else {
+                sessionStorage.setItem('currentTheme', 'dark')
+            }
+            setTheme();
+        }
+
+        function setTheme() {
+            var theme = sessionStorage.getItem('currentTheme');
+            if ('light' === theme) {
+                themeIcon = '🌞';
+            } else if ('dark' === theme) {
+                themeIcon = '🌒';
+            }
+            document.getElementById('theme-switcher').innerHTML = themeIcon;
+            jtd.setTheme(theme);
+        }
+
+        setTheme();
+
+        if (window.matchMedia) {
+            if (!themeManualToggle) {
+                if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    sessionStorage.setItem('currentTheme', 'dark')
+                } else {
+                    sessionStorage.setItem('currentTheme', 'light')
+                }
+                setTheme();
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+                if (!themeManualToggle) {
+                    if (event.matches) {
+                        sessionStorage.setItem('currentTheme', 'dark');
+                    } else {
+                        sessionStorage.setItem('currentTheme', 'light')
+                    }
+                    setTheme();
+                }
+            });
+        }
+
+        window.toggleTheme = toggleTheme;
+    })();
+    
+</script>
