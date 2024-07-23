@@ -12,7 +12,7 @@ class TestCcount(unittest.TestCase):
         self.assertEqual('Yo, cats:8', ccount('Yo, cats'))
 
     def test_random(self):
-        testlen = int(random.random() * 1234)
+        testlen = random.randrange(12,99999)
         rw = randomword(testlen)
         self.assertEqual(rw + ':' + str(testlen), ccount(rw))
 
