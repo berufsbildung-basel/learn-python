@@ -16,7 +16,7 @@ simple arithmetic operations, as follows:
 
 ## Mentoring topics
 
-Discuss what happens when an division by zero occurs, or
+Discuss what happens when a division by zero occurs, or
 when the function arguments have invalid values, such as
 an operator that is not one in the allowed list.
 
