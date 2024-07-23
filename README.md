@@ -1,23 +1,22 @@
 # python-exercices
 Learn the basics of programming in Python
 
-## TODO
-
-- Hide the source repository from students so that the solutions are not visible to them
-
 ## Local website testing with Docker
 
     docker-compose up
-    open http://0.0.0.0:4000/pages/bdelacre/python-exercices/
+    open http://0.0.0.0:4000/learn-python/
 
 
 ## Testing the solutions
 
-For now the solutions are in their own [./solutions](solutions) folder.
+The solutions are found in the private
+[learn-python-solutions](https://github.com/berufsbildung-basel/learn-python-solutions)
+repository.
 
-They are excluded from the generated wegbsite by a [config.yml](./_config.yml) statement.
+That repository is mounted here as a submodule, so you can
+develop and test the solutions here by setting
 
-To use them to validate the tests, set `PYTHONPATH=./solutions/` and
-you can then run commands like
+    export PYTHONPATH=./submodules/learn-python-solutions/solutions/
 
-    python basics/hello_python_test.py
+and using [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+commands to keep them in sync.

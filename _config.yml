@@ -37,6 +37,6 @@ gh_edit_repository: "https://github.com/berufsbildung-basel/learn-python"
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
 
-footer_content: Initial 2024 version
+footer_content: (C) 2024 Adobe, Apache 2.0 Licensed
 exclude:
-  - solutions
+  - submodules
