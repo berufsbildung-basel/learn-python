@@ -17,3 +17,6 @@ title: Links
 
 [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 : From the python.org docs
+
+[Standard Library](https://docs.python.org/3/library/index.html)
+: the official library of Python add-ons
